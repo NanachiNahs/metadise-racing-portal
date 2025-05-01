@@ -18,7 +18,7 @@ const Brands = () => {
             {/* Metadise Academy Logo */}
             <div className="max-w-xs">
               <img 
-                src="/Metadise-Academy-logo.png" 
+                src="/academy-white.png" 
                 alt="Metadise Academy" 
                 className="w-full h-auto"
               />
