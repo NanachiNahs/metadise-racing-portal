@@ -30,7 +30,7 @@ const Navbar = () => {
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          {['HOME', 'ABOUT', 'MSR', 'WEB3 ACADEMY', 'KBTA', 'CONTACT US'].map((item) => (
+          {['HOME', 'ABOUT', 'MSR', 'ACADEMY', 'KBTA', 'CONTACT US'].map((item) => (
             <Link
               key={item}
               to={`/${item.toLowerCase().replace(' ', '-')}`}
@@ -54,7 +54,7 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <div className="absolute top-full left-0 right-0 bg-black py-4 md:hidden">
             <div className="container mx-auto px-6 flex flex-col space-y-4">
-              {['HOME', 'ABOUT', 'MSR', 'WEB3 ACADEMY', 'KBTA','CONTACT US'].map((item) => (
+              {['HOME', 'ABOUT', 'MSR', 'ACADEMY', 'KBTA','CONTACT US'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase().replace(' ', '-')}`}

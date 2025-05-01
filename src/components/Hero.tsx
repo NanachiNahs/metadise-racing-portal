@@ -12,10 +12,12 @@ const Hero = () => {
         <div className="w-full md:w-1/12 animate-fade-up"></div>
         <div className="w-full md:w-6/12 space-y-4 animate-fade-up delay-200">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
-            The go-to-venue for anything WEB3.0 <br></br>related in Sarawak
+            Pioneering the <br></br>Web3.0 Frontier in Borneo 
           </h1>
           <div className="text-xl md:text-2xl text-white">
-            #METADISE
+            #METADISEACADEMY
+            <br />
+            #METADISESIMRACING
             <br />
             #EATPLAYEARN
           </div>

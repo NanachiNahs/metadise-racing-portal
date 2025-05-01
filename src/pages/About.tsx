@@ -26,22 +26,20 @@ const About = () => {
       
       {/* Hero Section */}
       <div className="relative min-h-screen flex bg-[url('/Artboard_2.png')] bg-cover bg-center items-center">
-        <div className="absolute inset-0 z-0">
-        </div>
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center z-10 pt-20">
-          <img 
-            src="/Isometric.png"
-            alt="Metadise Visualization" 
-            className="w-full max-h-[50vh] md:max-h-[80vh] md:h-auto object-contain mx-auto reveal animate-float"
-          />
-          <div className="reveal pb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8">ABOUT METADISE</h1>
-            <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-              METADISE SDN. BHD. was incorporated on 2022-12-13 in Malaysia with registration number of 1491919T / 202201045322. METADISE SDN. BHD.'s business includes wholesale of electrical and electronics goods;organization, promotions and/or management of event;cafeterias/canteens
-            </p>
-          </div>
+      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center z-10 pt-20">
+        <img 
+          src="/Isometric.png"
+          alt="Metadise Visualization" 
+          className="w-full max-h-[50vh] md:max-h-[80vh] md:h-auto object-contain mx-auto reveal animate-float"
+        />
+        <div className="reveal pb-12">
+          <h1 className="text-4xl md:text-4xl font-bold mb-8 text-white">Executive Board and Advisors</h1>
+          <p className="text-lg md:text-xl leading-relaxed text-gray-300">
+            With decades of collective experience in blockchain, decentralized technologies, and digital innovation, our Board of Directors and Advisors guide our mission—driving impactful results and advancing the future of web3.
+          </p>
         </div>
       </div>
+    </div>
 
       {/* Team Section */}
       <section className="py-32 bg-zinc-900">
@@ -90,21 +88,24 @@ const About = () => {
 
       {/* Mission Section */}
       <section className="py-32 bg-black">
-        <div className="container mx-auto px-6 max-w-4xl">
+        <div className="container mx-auto px-3 max-w-4xl">
+          <h2 className="text-5xl font-bold text-center mb-16 reveal">OUR VISSION</h2>
+          <div className="space-y-8 text-center pb-20">
+            <p className="text-xl leading-relaxed text-gray-300 reveal delay-100">
+              Metadise will guide the community in an engaging way that is easy for beginners to understand through its very own educational workshops.
+            </p>
+          </div>
           <h2 className="text-5xl font-bold text-center mb-16 reveal">OUR MISSION</h2>
           <div className="space-y-8 text-center">
             <p className="text-xl leading-relaxed text-gray-300 reveal delay-100">
-              This is a space to share more about the business: who's behind it, what it does and what this site has to offer. It's an opportunity to tell the story behind the business or describe a special service or product it offers. You can use this section to share the company history or highlight a particular feature that sets it apart from competitors.
-            </p>
-            <p className="text-xl leading-relaxed text-gray-300 reveal delay-200">
-              Let the writing speak for itself. Keep a consistent tone and voice throughout the website to stay true to the brand image and give visitors a taste of the company's values and personality.
+              Metadise seeks to become the leading blockchain hub in the whole of Sarawak, known for its commitment to building a community of likeminded people who share the same values and aspirations for the future.
             </p>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-32 bg-zinc-900">
+      {/* <section className="py-32 bg-zinc-900">
         <div className="container mx-auto px-6 max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 reveal">TESTIMONIALS</h2>
           <p className="text-2xl text-center text-gray-300 mb-20 reveal delay-100">
@@ -145,7 +146,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

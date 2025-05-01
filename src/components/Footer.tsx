@@ -5,7 +5,7 @@ const Footer = () => {
     { name: 'Home', path: '/home' },
     { name: 'About Us', path: '/about' },
     { name: 'MSR', path: '/msr' },
-    { name: 'WEB3 Academy', path: 'https://metadiseacademy.com/', target: "_blank" },
+    { name: 'Metadise Academy', path: 'https://metadiseacademy.com/', target: "_blank" },
     { name: 'KBTA', path: 'https://www.kch-bta.com/', target: "_blank" },
     { name: 'Contact Us', path: '/contact-us' }
   ];

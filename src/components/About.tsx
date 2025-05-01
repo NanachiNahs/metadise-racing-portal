@@ -1,24 +1,44 @@
 const About = () => {
-  return <section className="py-20 bg-white select-none">
-      <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="reveal">
-            <h1 className="text-5xl font-bold mb-6 text-zinc-950">ABOUT OUR COMPANY</h1>
-            <h2 className="text-4xl mb-6 text-zinc-950">
-              This is the space to introduce the business and what it has to offer.
-            </h2>
-            <p className="text-xl md:text-2xl max-w-4xl mx-auto mb-16 text-zinc-950 text-justify">
-              This is the space to introduce visitors to the business or brand. Briefly explain who's behind it, what it does and what makes it unique. Share its core values and what this site has to offer.
-            </p>
-            <button className="px-10 py-5 text-xl rounded-full transition-colors duration-300 bg-zinc-950 hover:bg-zinc-800 text-zinc-50">
-              Read More
-            </button>
-          </div>
-          <div className="reveal delay-200">
-            <img src="/lovable-uploads/c556b-metadise-racer_2.png" alt="About Metadise" className="rounded-lg shadow-2xl" />
-          </div>
+  return (
+    <section className="py-16 bg-white">
+      <div className="container mx-auto px-16 max-w-6xl">
+        {/* Company Header - Left Aligned */}
+        <div className="mb-4">
+          <h1 className="text-4xl font-bold text-black">METADISE SDN BHD</h1>
+        </div>
+        
+        {/* Company Description - Left Aligned */}
+        <div className="mb-8">
+          <p className="text-lg text-black">
+            Malaysia Digital (MD) Status Company under Malaysia Digital Economy Corporation (MDEC) and certified as HRDCorp training provider.
+          </p>
+        </div>
+        
+        {/* Image - Full Width */}
+        <div className="mb-2">
+          <img 
+            src="/public/metadise.jpeg" 
+            alt="Metadise Team" 
+            className="w-full"
+          />
+        </div>
+        
+        {/* Image Caption - Centered */}
+        <div className="text-center mb-8">
+          <p className="text-base italic text-blue-800">
+            Photo of James Gan, CEO of Metadise with VIPs
+          </p>
+        </div>
+        
+        {/* Mission Statement - Left Aligned */}
+        <div>
+          <p className="text-lg text-black">
+            Metadise, founded in December 2022 dedicated to empowering individuals and organisations through innovative education in key areas such as Artificial Intelligence, Cybersecurity, Blockchain, and Digital Literacy, all under the HRD Corp framework.
+          </p>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default About;
