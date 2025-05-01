@@ -17,7 +17,7 @@ const About = () => {
         {/* Image - Full Width */}
         <div className="mb-2">
           <img 
-            src="public/metadise.jpeg." 
+            src="metadise.jpeg" 
             alt="Metadise Team" 
             className="w-full"
           />
