@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -22,7 +21,7 @@ const Navbar = () => {
   }, [window.location.pathname]);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black py-4' : 'py-6'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-black py-4' : 'py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center select-none">
         <Link to="/home" className="flex items-center">
           <img src="/icon.png" alt="Metadise Logo" className="h-8" />
