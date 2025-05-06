@@ -8,7 +8,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import MSR from "./pages/MSR";
-import Web3Academy from "./pages/Web3Academy";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 
@@ -18,7 +17,7 @@ const RedirectKBTA = () => {
     window.open("https://www.kch-bta.com/", "_blank"); // Opens in a new tab
   }, []);
 
-  return <Navigate to="/home" replace />; // Redirects back to home
+  return <Navigate to="/" replace />; // Redirects back to home
 };
 
 const RedirectWeb3Academy = () => {
@@ -26,7 +25,7 @@ const RedirectWeb3Academy = () => {
     window.open("https://metadiseacademy.com/", "_blank"); // Opens in a new tab
   }, []);
 
-  return <Navigate to="/home" replace />; // Redirects back to home
+  return <Navigate to="/" replace />; // Redirects back to home
 };
 
 const queryClient = new QueryClient();
@@ -39,8 +38,10 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<Home />} />
+          {/* Home is now at the root path */}
+          <Route path="/" element={<Home />} />
+          {/* Redirect /home to root for any existing links */}
+          <Route path="/home" element={<Navigate to="/" replace />} />
           <Route path="/about" element={<About />} />
           <Route path="/msr" element={<MSR />} />
           <Route path="/web3-academy" element={<RedirectWeb3Academy />} />
