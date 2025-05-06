@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-16 max-w-6xl">
+      <div className="container mx-auto px-16 max-w-6xl select-none">
         {/* Company Header - Left Aligned */}
         <div className="mb-4">
           <h1 className="text-4xl font-bold text-black">METADISE SDN BHD</h1>
