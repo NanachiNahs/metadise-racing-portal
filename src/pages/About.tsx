@@ -89,7 +89,7 @@ const About = () => {
       {/* Mission Section */}
       <section className="py-32 bg-black">
         <div className="container mx-auto px-3 max-w-4xl">
-          <h2 className="text-5xl font-bold text-center mb-16 reveal">OUR VISSION</h2>
+          <h2 className="text-5xl font-bold text-center mb-16 reveal">OUR VISION</h2>
           <div className="space-y-8 text-center pb-20">
             <p className="text-xl leading-relaxed text-gray-300 reveal delay-100">
               Metadise will guide the community in an engaging way that is easy for beginners to understand through its very own educational workshops.
