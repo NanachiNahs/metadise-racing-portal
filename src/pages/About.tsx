@@ -60,10 +60,10 @@ const About = () => {
                 description: "Afiq is the founder and President of Sarawak Esports Association. His past achievement and contribution led him to be elected as Deputy President of Malaysia Esports Federation."
               },
               {
-                name: "AND WEE CHIN",
+                name: "DYLAN ANG WEE CHIN",
                 role: "COO",
                 image: "/team-03.png",
-                description: "Ang is an enthusiastic blockchain/crypto person and has been actively participating in blockchain projects since 2017."
+                description: "Dylan is an enthusiastic blockchain/crypto person and has been actively participating in blockchain projects since 2017."
               }
             ].map((member, index) => (
               <div 
