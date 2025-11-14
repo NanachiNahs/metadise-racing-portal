@@ -10,6 +10,9 @@ import About from "./pages/About";
 import MSR from "./pages/MSR";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
+import TermsAndCondition from "./pages/TermsAndCondition";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import RefundPolicy from "./pages/RefundPolicy";
 
 // Inline Redirect Component
 const RedirectKBTA = () => {
@@ -47,6 +50,9 @@ const App = () => (
           <Route path="/web3-academy" element={<RedirectWeb3Academy />} />
           <Route path="/kbta" element={<RedirectKBTA />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/terms-and-condition" element={<TermsAndCondition />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

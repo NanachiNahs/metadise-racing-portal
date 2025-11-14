@@ -57,6 +57,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-200 pt-6 text-center text-sm text-black">
+        <div className="mb-4">
+          <Link to="/terms-and-condition" className="hover:text-purple-light transition-colors mx-3">
+            Terms & Conditions
+          </Link>
+          <span className="text-gray-400">|</span>
+          <Link to="/privacy-policy" className="hover:text-purple-light transition-colors mx-3">
+            Privacy Policy
+          </Link>
+          <span className="text-gray-400">|</span>
+          <Link to="/refund-policy" className="hover:text-purple-light transition-colors mx-3">
+            Refund Policy
+          </Link>
+        </div>
         <p>© 2025 Metadise Sdn. Bhd. All Rights Reserved.</p>
       </div>
     </div>
