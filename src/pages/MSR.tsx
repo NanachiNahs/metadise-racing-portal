@@ -38,7 +38,7 @@ const MSR = () => {
           </p>
           <a
             className="btn inline-block px-11 py-4 bg-black text-[#b74b4b] border-2 border-[#b74b4b] rounded-full text-lg font-semibold tracking-widest transition duration-300 ease-in-out cursor-pointer hover:bg-[#b74b4b] hover:text-black hover:shadow-[0_0_15px_#b74b4b]"
-            href=""
+            href="https://www.metadisesimracing.com/"
             target="_blank"
             rel="noreferrer"
           >
