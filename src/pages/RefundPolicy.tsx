@@ -46,14 +46,6 @@ const RefundPolicy = () => {
             </p>
           </div>
 
-          {/* Non-Refundable Services */}
-          <div className="mb-12 pb-8 border-b border-gray-200 bg-red-50 p-6 rounded">
-            <h2 className="text-3xl font-bold text-red-700 mb-4">Non-Refundable Services</h2>
-            <p className="text-lg text-red-900 leading-relaxed font-semibold">
-              All ticket purchases/booking purchases are strictly non-refundable and non-deferrable.
-            </p>
-          </div>
-
           {/* Process for Cancellation */}
           <div className="mb-12 pb-8 border-b border-gray-200">
             <h2 className="text-3xl font-bold text-black mb-4">Process for Cancellation</h2>
