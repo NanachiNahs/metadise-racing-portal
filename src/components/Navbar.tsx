@@ -24,7 +24,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'HOME', path: '/', external: false },
     { name: 'ABOUT', path: '/about', external: false },
-    { name: 'MSR', path: '/msr', external: false },
+    { name: 'MSR', path: 'https://www.metadisesimracing.com/', external: true },
     { name: 'ACADEMY', path: 'https://metadiseacademy.com/', external: true },
     { name: 'KBTA', path: 'https://www.kch-bta.com/', external: true },
     { name: 'CONTACT US', path: '/contact-us', external: false }
