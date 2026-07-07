@@ -50,9 +50,9 @@ const Footer = () => {
           <address className="not-italic space-y-2 text-black">
             <p>THE PODIUM Block C-2-7 N C-2-8 Lot 21,</p>
             <p>Block 20B Kuching North Land District</p>
-            <p>93350, Kuching, Sarawak</p>
-            <p className="mt-4">Phone: +60 13-802 6696</p>
-            <p>Email: metadise@gmail.com</p>
+            <p>93200, Kuching, Sarawak</p>
+            <p className="mt-4">Phone: +60 13-809 2636</p>
+            <p>Email: metadiseio.sb@gmail.com</p>
           </address>
         </div>
       </div>
